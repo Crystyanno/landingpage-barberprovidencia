@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet" />
@@ -14,7 +15,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="assets/logo-black.svg" type="image/x-icon" />
     <link rel="stylesheet" href="style.css">
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title>Barbearia | Providência</title>
 </head>
@@ -24,9 +25,9 @@
     <div class="bg-home">
         <header>
             <nav class="header-content container">
-                <div class="header-icons">
-                    <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                <div class="header-icons" data-aos="fade-down">
+                    <a href="https://www.instagram.com/barbeariaprovidencia/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href="https://www.facebook.com/pages/Barbearia%20Provid%C3%AAncia/265537427551328/"><i class="fa-brands fa-facebook fa-2x"></i></a>
                     <a href="#"><i class="fa-brands fa-tiktok fa-2x"></i></a>
                 </div>
 
@@ -34,17 +35,19 @@
                     <img src="assets/logo.svg" alt="Logo da Barbearia">
                 </div>
 
-                <div>
-                    <a href="#" class="header-button">
+                <div data-aos="fade-down">
+                    <a href="https://api.whatsapp.com/send/?phone=5562991283431&text=Quero%20fazer%20um%20agemdamento!"
+                        target="_blank" class="header-button" >
                         Agendar horário
                     </a>
                 </div>
             </nav>
 
-            <main class="hero container">
+            <main class="hero container" data-aos="fade-up" data-delay="400">
                 <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.</h1>
                 <P>Horário de funcionamento: 09:00 ás 19:00</P>
-                <a href="" class="button-contact" target="_blank">
+                <a href="https://api.whatsapp.com/send/?phone=5562991283431&text=Quero%20fazer%20um%20agemdamento!"
+                    class="button-contact" target="_blank">
                     Agendar horário
                 </a>
             </main>
@@ -53,11 +56,11 @@
     </div>
 
     <section class="about">
-        <div class="container about-content">
+        <div class="container about-content" data-aos="zoo-in" data-delay="100">
             <div>
                 <img src="assets/images.svg" alt="Imagem sobre a Barbearia">
             </div>
-            <div class="about-description">
+            <div class="about-description" data-aos="zoom-out-left" data-aos-delay="250">
                 <h2>Sobre</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit esse ut vitae alias voluptatem
                     accusantium? Error iure consequatur necessitatibus suscipit!</p>
@@ -69,33 +72,66 @@
     <section class="services">
         <div class="services-content container">
             <h2>Serviços</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas fugiat facere dolor et iste, adipisci neque esse temporibus quos porro?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas fugiat facere dolor et iste, adipisci
+                neque esse temporibus quos porro?</p>
         </div>
 
         <section class="haircuts">
-            <div class="haircut">
+            <div class="haircut" data-aos="fade-up" data-aos-delay="150">
                 <img src="assets/corte1.png" alt="Corte normal">
-            <div class="haircut-info">
-                <strong>Corte normal</strong>
-                <button>R$40,00</button>
-            </div>   
-            </div>
-            <div class="haircut">
+                <div class="haircut-info">
+                    <strong>Corte normal</strong>
+                    <button>R$40,00</button>
+                </div>
+            </div> 
+            <div class="haircut" data-aos="fade-up" data-aos-delay="250">
                 <img src="assets/corte2.png" alt="Corte normal">
-            <div class="haircut-info">
-                <strong>Barba completa</strong>
-                <button>R$40,00</button>
-            </div>   
+                <div class="haircut-info">
+                    <strong>Barba completa</strong>
+                    <button>R$40,00</button>
+                </div>
             </div>
-            <div class="haircut">
+            <div class="haircut" data-aos="fade-up" data-aos-delay="350">
                 <img src="assets/corte3.png" alt="Corte normal">
-            <div class="haircut-info">
-                <strong>Corte e barba</strong>
-                <button>R$40,00</button>
-            </div>   
+                <div class="haircut-info">
+                    <strong>Corte e barba</strong>
+                    <button>R$40,00</button>
+                </div>
             </div>
         </section>
     </section>
-</body>
 
+    <div class="services">
+        <h2>Venha conhecer-nos!</h2>
+    </div>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.8752768871705!2d-49.38688045998581!3d-16.676661750336482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935e5f129858929f%3A0x21fd79e9c8e754ce!2sBarbearia%20Provid%C3%AAncia!5e0!3m2!1spt-BR!2sbr!4v1729172624515!5m2!1spt-BR!2sbr"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <footer class="footer">
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/barbeariaprovidencia/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+            <a href="https://www.facebook.com/pages/Barbearia%20Provid%C3%AAncia/265537427551328/"><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+        </div>
+
+        <div>
+            <img src="assets/logo.svg" alt="Logo Barbearia">
+        </div>
+
+        <p>@ Copyright 2024 - Todos os direitos reservados. Desenvolvido por <span>Crystyanno Souza.</span></p>
+
+    </footer>
+
+    <a href="https://api.whatsapp.com/send/?phone=5562991283431&text=Quero%20fazer%20um%20agemdamento!"
+        class="btn-whatsapp" target="_blank" data-aos="fade-in-up" data-aos-delay="400">
+        <img src="assets/whatssapp.svg" alt="Botão do whatssapp">
+        <span class="tooltip-text">Agende seu horário</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
 </html>
