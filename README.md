@@ -14,7 +14,7 @@ Contato rápido: Links para redes sociais e WhatsApp para agendamento.
 - FontAwesome: Ícones utilizados no cabeçalho e rodapé.
 - Google Fonts: Fontes personalizadas (família Roboto).
 - JavaScript: Para manipulação de animações e funcionalidades dinâmicas.
-- 
+  
 # Como Visualizar o Projeto
 ## 1. Clone este repositório:
 
